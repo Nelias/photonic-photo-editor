@@ -1,4 +1,15 @@
-This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
+# Photonic Photo Editor
+Live version is available here: https://nelias.github.io/photonic-photo-editor/
+
+### Here is a little preview:
+
+![Alt text](public/app-preview-images/photonic-photo-editor-image-upload.png?raw=true "Photonic Photo Editor Image Upload")
+
+![Alt text](public/app-preview-images/photonic-photo-editor-image-edit.png?raw=true "Photonic Photo Editor Image Edit")
+
+![Alt text](public/app-preview-images/photonic-photo-editor-image-edit-2.png?raw=true "Photonic Photo Editor Image Edit 2")
+
+![Alt text](public/app-preview-images/photonic-photo-editor-image-edit-3.png?raw=true "Photonic Photo Editor Image Edit 3")
 
 ## Available Scripts
 
