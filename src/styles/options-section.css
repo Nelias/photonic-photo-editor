@@ -1,0 +1,97 @@
+.rotation-input {
+    width: 7.75vw;
+	text-align: center;
+}
+
+.rotation-input:hover {
+    cursor: default;
+}
+
+.filter-panel {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    margin: 1vw auto 2vw auto;
+    width: 25vw;
+    color: white;
+}
+
+.filter-panel__label {
+    margin-top: 1.25vw;
+    margin-bottom: 0.5vw;
+
+    font-size: 17px;
+}
+
+input[type=range] {
+    -webkit-appearance: none;
+}
+
+input[type=range]::-webkit-slider-runnable-track {
+    width: 300px;
+    height: 8px;
+    background: linear-gradient(90deg, #666, #eee);
+}
+
+input[type=range]::-webkit-slider-thumb {
+    -webkit-appearance: none;
+    border: 2px solid var(--main-border-color);
+    border-radius: 50%;
+    height: 17px;
+    width: 17px;
+    background: rgb(95, 168, 95);
+    margin-top: -5px;
+}
+
+input[type=range]:focus {
+    outline: none;
+}
+
+input[type=range]:focus::-webkit-slider-runnable-track {
+    background: linear-gradient(90deg, #666, #eee);
+}
+
+@media screen and (max-width: 1025px) and (min-width: 650px) {
+
+    .options-section {
+        margin-top: 5vw;
+    }
+	
+	.rotation-input {
+		width: 15vw;
+	}
+
+	.filter-panel {
+		margin: 3vw auto;
+		width: 60vw;
+	}
+
+	.filter-panel__label {
+		margin-top: 2vw;
+		margin-bottom: 1.25vw;
+	}
+}
+
+@media screen and (max-width: 650px) {
+
+    .options-section {
+        margin-top: 4vw;
+    }
+
+	.rotation-input {
+        width: 25vw;
+        margin: 0 20vw 10px 20vw;
+	}
+
+	.filter-panel {
+		margin: 3vw auto;
+		width: 60vw;
+	}
+
+	.filter-panel__label {
+		margin-top: 2.5vw;
+        margin-bottom: 2vw;
+        
+        font-size: 14px;
+	}
+}

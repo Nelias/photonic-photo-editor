@@ -1,0 +1,43 @@
+@import url('https://fonts.googleapis.com/css?family=Milonga');
+
+:root {
+	--main-border-color: rgb(146, 255, 112);
+	--main-font-size: 15px; 
+}
+
+.App {
+    text-align: center;
+	padding-bottom: 1vw;
+	font-family: 'Milonga', cursive;
+}
+
+.photo-editor {
+    display: flex;
+    flex-direction: row;
+	justify-content: space-evenly;
+}
+
+.title {
+	font-family: 'Milonga', cursive;
+	color: var(--main-border-color);
+	width: 100%;
+	margin: 1vw auto 2.25vw auto;
+	background: -webkit-linear-gradient(#eee, #ccc, var(--main-border-color));
+	-webkit-background-clip: text;
+	-webkit-text-fill-color: transparent;
+}
+
+@media screen and (max-width: 1025px) {
+	.photo-editor {
+		flex-direction: column;
+	}
+}
+
+@media screen and (max-width: 650px) {
+	.title {
+		margin: 3vw auto 5.5vw auto;
+
+		font-size: 27px;
+	}
+}
+

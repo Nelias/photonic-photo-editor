@@ -1,0 +1,49 @@
+.main-button {
+	padding: 7px 14px;
+	margin: 10px;
+
+    border: 2px solid var(--main-border-color);
+    background-color: rgb(135, 222, 135);
+    border-radius: 20px;
+
+    font-size: var(--main-font-size);
+	font-weight: bold;
+	font-family: 'Milonga', cursive;
+}
+
+.main-button:hover {
+	cursor: pointer;
+}
+
+.black-button {
+    border: 2px solid rgb(206, 206, 206);
+    background-color: black;
+    color: #eee;
+}
+
+.white-button {
+    border: 2px solid black;
+    background-color: #eee;
+    color: black;
+}
+
+.reset-button {
+    border: 2px solid rgb(156, 39, 39);
+    background-color: red;
+    color: #fff;
+}
+
+@media screen and (max-width: 1025px) {
+	.main-button {
+		margin: 15px;
+	}
+}
+
+@media screen and (max-width: 650px) {
+	.main-button {
+		margin: 10px;
+
+		font-size: 13px;
+	}
+}
+
