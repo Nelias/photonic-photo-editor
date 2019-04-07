@@ -8,7 +8,10 @@
     "@types/node": "11.11.3",
     "@types/react": "16.8.8",
     "@types/react-dom": "16.8.2",
+    "babel-plugin-transform-decorators-legacy": "^1.3.5",
     "gh-pages": "^2.0.1",
+    "mobx": "^5.9.4",
+    "mobx-react": "^5.4.3",
     "react": "^16.8.4",
     "react-dom": "^16.8.4",
     "react-scripts": "2.1.8",
@@ -21,6 +24,14 @@
     "eject": "react-scripts eject",
     "predeploy": "npm run build",
     "deploy": "gh-pages -d build"
+  },
+  "babel": {
+    "plugins": [
+    "transform-decorators-legacy"
+    ],
+    "presets": [
+    "react-app"
+    ]
   },
   "eslintConfig": {
     "extends": "react-app"

@@ -13,10 +13,10 @@ export interface FilterInput {
 }
  
 export interface EditorState extends FilterInput {
-    file: any,
-    pixelCount: number | null,
-    rotation: any,
-    liveRotation: any,
+    file: null | string,
+    pixelCount: null | number,
+    rotation: number | string,
+    liveRotation: number | string,
     buttonColor: ButtonColor
 }
 
